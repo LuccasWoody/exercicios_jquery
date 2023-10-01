@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #d4d8e0;
+}
+
+header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.text-insert {
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    width: 50%;
+}
+
+.divInsert {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 11px 20px 0 grey;
+    display:inline-block;
+    width: 70%;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.riscarTarefa {
+    text-decoration: line-through;
+}
+
+button {
+    width: 10%;
+    background: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
